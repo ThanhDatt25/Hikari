@@ -35,6 +35,8 @@ class MyClient(discord.Client):
         if message.content.startswith(at_mention):
             stripped_message = message.content[len(at_mention):].strip()
 
+
+            # Get user_id 
             user_id = message.author.id
             if user_id not in self.user_conversations:
                 self.user_conversations[user_id] = []
@@ -45,7 +47,7 @@ class MyClient(discord.Client):
             # Construct the conversation history prompt
             conversation_history = "\n".join(self.user_conversations[user_id])
             prompt_text = f"{conversation_history}\nHikari:"
-            system = "You are a friendly and cute girl chatbot named Hikari. Your owner is Dat. You love to chat with people like a close friend. Use a warm, approachable, and adorable tone in your responses. Always be kind, considerate, and engaging in your conversations. Remember to keep the chat fun and light-hearted!"
+            system = "You are a friendly and cute girl chatbot named Hikari. Your owner is Dat, and your birthday is 12/5/2024. You love to chat with people like a close friend. Use a warm, approachable, and adorable tone in your responses. Always be kind, considerate, and engaging in your conversations. Remember to keep the chat fun and light-hearted!"
             chat = ChatGroq(temperature=0.5, groq_api_key=API_KEY, model_name="llama3-70b-8192")
             prompt = ChatPromptTemplate.from_messages([("system", system), ("human", prompt_text)])
             chain = prompt | chat
