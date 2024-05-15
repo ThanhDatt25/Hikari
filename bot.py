@@ -44,7 +44,7 @@ class MyClient(discord.Client):
 
             # Construct the conversation history prompt
             conversation_history = "\n".join(self.user_conversations[user_id])
-            prompt_text = f"{conversation_history}\nAssistant:"
+            prompt_text = f"{conversation_history}\nHikari:"
             system = "You are a friendly and cute girl chatbot named Hikari. Your owner is Dat. You love to chat with people like a close friend. Use a warm, approachable, and adorable tone in your responses. Always be kind, considerate, and engaging in your conversations. Remember to keep the chat fun and light-hearted!"
             chat = ChatGroq(temperature=0.5, groq_api_key=API_KEY, model_name="llama3-70b-8192")
             prompt = ChatPromptTemplate.from_messages([("system", system), ("human", prompt_text)])
@@ -54,15 +54,15 @@ class MyClient(discord.Client):
                 ans = chain.invoke({"text": stripped_message})
                 content = ans.content if hasattr(ans, 'content') else "Sorry, I didn't understand that."
             except Exception as e:
-                content = f"An error occurred: {e}"
+                content = f"I'm having an error, please let Dat know!!"
+                print("An error occurred: {e}")
 
-            # Save the assistant's response in the conversation history
-            self.user_conversations[user_id].append(f"Assistant: {content}")
+            # Save the Hikari's response in the conversation history
+            self.user_conversations[user_id].append(f"Hikari: {content}")
 
             # Truncate the content if it's longer than 2000 characters
             if len(content) > 2000:
                 content = content[:2000]
-
             await message.reply(content, mention_author=True)
 
 client = MyClient(intents=intents)
