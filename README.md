@@ -59,7 +59,7 @@
 Hikari is a discord bot. It can help you to do a research, debug code, generate code ,...
 She was created by LLM. The model i used is model `Llama 3`
 
-Use the `.env` to get started.
+Use the `python bot.py` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
