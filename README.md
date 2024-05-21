@@ -67,7 +67,7 @@ Use the `python bot.py` to get started.
 
 ### Built With
 
-This project written by Python and used model LLM form HuggingFace.
+This project written by Python and used model LLM from HuggingFace.
 
 - [![Python][Python]][Next-url]
 - [![HuggingFace][HuggingFace]][React-url]
