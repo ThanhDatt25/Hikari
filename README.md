@@ -56,6 +56,8 @@
 [![Product Name Screen Shot][product-screenshot-2]](https://example.com)
 [![Product Name Screen Shot][product-screenshot-3]](https://example.com)
 
+<p>I'm a freshman and this is my first project</p>
+
 Hikari is a discord bot. It can help you to do a research, debug code, generate code ,...
 She was created by LLM. The model i used is model `Llama 3`
 
