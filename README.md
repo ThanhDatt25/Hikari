@@ -22,9 +22,7 @@
     <a href="https://github.com/ThanhDatt25"><strong>Visit my profile Github »</strong></a>
     <br />
     <br />
-    <a href=" https://discord.com/oauth2/authorize?client_id=1238851232743952394&permissions=1084479764544&scope=bot">You can invite Hikari to your discord server !</a>
-    ·
-    <a href="">Request Feature</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=1238851232743952394&permissions=1084479764544&scope=bot">You can invite Hikari to your discord server !</a>
   </p>
 </div>
 
