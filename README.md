@@ -57,7 +57,7 @@
 [![Product Name Screen Shot][product-screenshot-3]](https://example.com)
 
 Hikari is a discord bot. It can help you to do a research, debug code, generate code ,...
-Hikari was created by LLM. The model i used is model 'Llama 3'
+She was created by LLM. The model i used is model `Llama 3`
 
 Here's why:
 
