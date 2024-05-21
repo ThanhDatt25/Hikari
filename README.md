@@ -70,8 +70,8 @@ Use the `python bot.py` to get started.
 This project written by Python and used model LLM form HuggingFace.
 
 - [![Python][Python]][Next-url]
-- [![HuggingFace][React.js]][React-url]
-- [![Grok][Vue.js]][Vue-url]
+- [![HuggingFace][HuggingFace]][React-url]
+- [![Grok][Grok][Vue-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
