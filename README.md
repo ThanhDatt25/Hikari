@@ -56,7 +56,8 @@
 [![Product Name Screen Shot][product-screenshot-2]](https://example.com)
 [![Product Name Screen Shot][product-screenshot-3]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Hikari is a discord bot. It can help you to do a research, debug code, generate code ,...
+Hikary was created by LLM. The model i used is model 'Llama 3'
 
 Here's why:
 
