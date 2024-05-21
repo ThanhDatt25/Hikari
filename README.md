@@ -79,12 +79,8 @@ This project written by Python and used model LLM from HuggingFace.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+To start this bot, please install required libraries!!! 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
