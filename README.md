@@ -97,8 +97,8 @@ To start this bot, please install required libraries!!!
    pip install requirements.txt
    ```
 3. Enter your TOKEN of your discord bot in `.env`
-   ```js
-   const TOKEN = "ENTER YOUR API";
+   ```
+   TOKEN = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
