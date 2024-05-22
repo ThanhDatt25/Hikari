@@ -83,7 +83,7 @@ To start this bot, please install required libraries!!!
 
 ### Prerequisites
 
-<p>Make sure that you need to install python</p>
+<p>Make sure that you need to install `python`</p>
 <p>You can install python is this <a href="https://www.python.org/downloads/">link</a></p>
 
 ### Installation
