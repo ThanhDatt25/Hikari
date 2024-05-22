@@ -107,9 +107,7 @@ To start this bot, please install required libraries!!!
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Just put your discord token in to .env and invite your bot to discord server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
