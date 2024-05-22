@@ -95,6 +95,10 @@ To start this bot, please install required libraries!!!
    ```
    TOKEN = "ENTER YOUR API";
    ```
+4. Enter your API key on Grog in `.env`. You can get one in <a href="https://console.groq.com/keys">here</a>
+   ```
+   GROQ_API_KEY = "ENTER YOUR API";
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
