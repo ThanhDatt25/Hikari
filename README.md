@@ -79,30 +79,26 @@ This project written by Python and used model LLM from HuggingFace.
 
 ## Getting Started
 
-To start this bot, please install required libraries!!! 
+To start this bot, please install required libraries!!!
+
 ### Prerequisites
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<p>Make sure that you need to install python</p>
+<p>You can install python is this <a href="https://www.python.org/downloads/">link</a></p>
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ThanhDatt25/Hikari.git
    ```
-3. Install NPM packages
+2. Install PIP library
    ```sh
-   npm install
+   pip install requirements.txt
    ```
-4. Enter your API in `config.js`
+3. Enter your TOKEN of your discord bot in `.env`
    ```js
-   const API_KEY = "ENTER YOUR API";
+   const TOKEN = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
