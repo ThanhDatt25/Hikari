@@ -111,25 +111,11 @@ Just put your discord token in to .env and invite your bot to discord server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
-ThanHDat - [@Reddit](https://www.reddit.com/user/ThanhDat2508/) - thanhdatttg2508@gmail.com
+ThanhDat - [@Reddit](https://www.reddit.com/user/ThanhDat2508/) - thanhdatttg2508@gmail.com
 
 Project Link: [https://github.com/ThanhDatt25/Hikari.git](https://github.com/ThanhDatt25/Hikari.git)
 
