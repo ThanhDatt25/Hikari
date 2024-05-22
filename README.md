@@ -70,7 +70,7 @@ This project written by Python and used model LLM from HuggingFace.
 
 - [![Python][Python]][Next-url]
 - [![HuggingFace][HuggingFace]][React-url]
-- [![Grok][Grok][Vue-url]
+- [![Grog][Grog]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
