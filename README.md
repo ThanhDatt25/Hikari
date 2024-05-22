@@ -68,9 +68,10 @@ Use the `python bot.py` to get started.
 
 This project written by Python and used model LLM from HuggingFace.
 
-- [![Python][Python]][Next-url]
-- [![HuggingFace][HuggingFace]][React-url]
-- [![Grog][Grog]]
+- LLM
+- Python
+- Grog API
+- HuggingFace
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
